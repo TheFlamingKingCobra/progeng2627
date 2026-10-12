@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main(){
+    int n=4, counter = 0;
+
+    while(counter < n){
+        std::cout << counter << std::endl;
+        counter = counter + 1;
+    }
+}
+
+// Expected output: 1 2 3
+// Actual output: 0 1 2 3 (I forgot it started from 0)

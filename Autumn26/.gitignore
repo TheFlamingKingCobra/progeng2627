@@ -1,3 +1,4 @@
+## prevents files with these file extentions from being pushed to git (otherwise with languages like C++ it creates a lot of clutter, in my opinion at least) 
 *.dSYM/
 *.out
 .vscode/
